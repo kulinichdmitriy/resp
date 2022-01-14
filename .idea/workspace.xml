@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7450d3c3-e488-48e1-9041-60eacfc12e6d" name="Default Changelist" comment="" />
+    <list default="true" id="7450d3c3-e488-48e1-9041-60eacfc12e6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger.log" beforeDir="false" afterPath="$PROJECT_DIR$/logger.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/request/Log4j.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/request/Mailer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/request/OpenSite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/request/OpenSite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/request/OpenSiteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/request/OpenSiteTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +23,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,18 +42,60 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.OpenSiteTest">
-    <configuration name="Log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="request.Log" />
+  <component name="RunManager" selected="TestNG.OpenSiteTest.openSite (1)">
+    <configuration name="OpenSiteTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="request" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="request.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="request" />
+      <option name="MAIN_CLASS_NAME" value="request.OpenSiteTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenSiteTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="request" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="request.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="request" />
+      <option name="MAIN_CLASS_NAME" value="request.OpenSiteTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,6 +114,34 @@
       <option name="MAIN_CLASS_NAME" value="request.OpenSiteTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenSiteTest.openSite (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="request" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="request.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="request" />
+      <option name="MAIN_CLASS_NAME" value="request.OpenSiteTest" />
+      <option name="METHOD_NAME" value="openSite" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -138,14 +221,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Log4j" />
       <item itemvalue="TestNG.OpenSiteTest" />
       <item itemvalue="TestNG.OpenSiteTest.openSite" />
+      <item itemvalue="TestNG.OpenSiteTest (1)" />
+      <item itemvalue="TestNG.OpenSiteTest (2)" />
+      <item itemvalue="TestNG.OpenSiteTest.openSite (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.OpenSiteTest.openSite (1)" />
+        <item itemvalue="TestNG.OpenSiteTest (2)" />
+        <item itemvalue="TestNG.OpenSiteTest (1)" />
         <item itemvalue="TestNG.OpenSiteTest" />
-        <item itemvalue="Application.Log4j" />
         <item itemvalue="TestNG.OpenSiteTest.openSite" />
       </list>
     </recent_temporary>
@@ -168,46 +255,58 @@
       <screen x="1920" y="0" width="1360" height="728" />
     </state>
     <state x="2054" y="18" width="1092" height="709" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1360.728@1920.0.1360.728" timestamp="1637920865560" />
-    <state width="1877" height="328" key="GridCell.Tab.0.bottom" timestamp="1641487863830">
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1642156658672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1641487863830" />
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642156658672" />
     <state width="1317" height="87" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@1920.0.1360.728" timestamp="1641384205967" />
-    <state width="1877" height="328" key="GridCell.Tab.0.center" timestamp="1641487863830">
+    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1642156658671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1641487863830" />
+    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642156658671" />
     <state width="1317" height="87" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@1920.0.1360.728" timestamp="1641384205967" />
-    <state width="1877" height="328" key="GridCell.Tab.0.left" timestamp="1641487863830">
+    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1642156658671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1641487863830" />
+    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642156658671" />
     <state width="1317" height="87" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@1920.0.1360.728" timestamp="1641384205967" />
-    <state width="1877" height="328" key="GridCell.Tab.0.right" timestamp="1641487863830">
+    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1642156658671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1641487863830" />
+    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642156658671" />
     <state width="1317" height="87" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@1920.0.1360.728" timestamp="1641384205967" />
-    <state width="1877" height="328" key="GridCell.Tab.1.bottom" timestamp="1638284023980">
+    <state width="1877" height="318" key="GridCell.Tab.1.bottom" timestamp="1642156512835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1638284023980" />
-    <state width="1877" height="328" key="GridCell.Tab.1.center" timestamp="1638284023980">
+    <state width="1877" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642156512835" />
+    <state width="1877" height="318" key="GridCell.Tab.1.center" timestamp="1642156512835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1638284023980" />
-    <state width="1877" height="328" key="GridCell.Tab.1.left" timestamp="1638284023980">
+    <state width="1877" height="318" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642156512835" />
+    <state width="1877" height="318" key="GridCell.Tab.1.left" timestamp="1642156512835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1638284023980" />
-    <state width="1877" height="328" key="GridCell.Tab.1.right" timestamp="1638284023980">
+    <state width="1877" height="318" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642156512835" />
+    <state width="1877" height="318" key="GridCell.Tab.1.right" timestamp="1642156512835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1638284023980" />
+    <state width="1877" height="318" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642156512835" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1637927102357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1637927102357" />
     <state x="2247" y="12" key="SettingsEditor/0.0.1920.1040/1920.0.1360.728@1920.0.1360.728" timestamp="1637920803532" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/request/SendLogToMail.java</url>
+          <line>5</line>
+          <properties field="logger" class="request.SendLogToMail" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
