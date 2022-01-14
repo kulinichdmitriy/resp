@@ -1,0 +1,63 @@
+14:42:03,972  INFO request.Log:12 -
+14:42:04,050 DEBUG io.netty.util.internal.logging.InternalLoggerFactory:89 - Using Log4J as the default logging framework
+14:42:04,052 DEBUG io.netty.util.ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+14:42:04,052 DEBUG io.netty.util.ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+14:42:04,055 DEBUG io.netty.util.ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@49ff7d8c
+14:42:04,066 DEBUG io.netty.util.internal.PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+14:42:04,066 DEBUG io.netty.util.internal.PlatformDependent0:954 - Java version: 11
+14:42:04,068 DEBUG io.netty.util.internal.PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+14:42:04,074 DEBUG io.netty.util.internal.PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+14:42:04,074 DEBUG io.netty.util.internal.PlatformDependent0:202 - java.nio.Buffer.address: available
+14:42:04,075 DEBUG io.netty.util.internal.PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+14:42:04,075 DEBUG io.netty.util.internal.PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+14:42:04,076 DEBUG io.netty.util.internal.PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @24111ef1
+14:42:04,077 DEBUG io.netty.util.internal.PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+14:42:04,077 DEBUG io.netty.util.internal.PlatformDependent:1103 - sun.misc.Unsafe: available
+14:42:04,087 DEBUG io.netty.util.internal.PlatformDependent:1205 - maxDirectMemory: 4280287232 bytes (maybe)
+14:42:04,087 DEBUG io.netty.util.internal.PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Users\DMITRI~1.KUL\AppData\Local\Temp (java.io.tmpdir)
+14:42:04,088 DEBUG io.netty.util.internal.PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+14:42:04,088 DEBUG io.netty.util.internal.PlatformDependent:1063 - Platform: Windows
+14:42:04,088 DEBUG io.netty.util.internal.PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+14:42:04,089 DEBUG io.netty.util.internal.PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+14:42:04,089 DEBUG io.netty.util.internal.CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+14:42:04,089 DEBUG io.netty.util.internal.PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+14:42:04,094 DEBUG io.netty.util.internal.PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+14:42:04,106 DEBUG io.netty.util.internal.InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+14:42:04,107 DEBUG io.netty.util.internal.InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+14:42:04,115 DEBUG io.netty.handler.ssl.JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+14:42:04,115 DEBUG io.netty.handler.ssl.JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+14:42:04,132 DEBUG io.netty.channel.MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 24
+14:42:04,137 DEBUG io.netty.channel.nio.NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+14:42:04,137 DEBUG io.netty.channel.nio.NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+14:42:04,167 DEBUG io.netty.buffer.PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 24
+14:42:04,167 DEBUG io.netty.buffer.PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 24
+14:42:04,167 DEBUG io.netty.buffer.PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+14:42:04,167 DEBUG io.netty.buffer.PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+14:42:04,167 DEBUG io.netty.buffer.PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+14:42:04,167 DEBUG io.netty.buffer.PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+14:42:04,167 DEBUG io.netty.buffer.PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+14:42:04,168 DEBUG io.netty.buffer.PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+14:42:04,168 DEBUG io.netty.buffer.PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+14:42:04,168 DEBUG io.netty.buffer.PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+14:42:04,168 DEBUG io.netty.buffer.PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+14:42:04,168 DEBUG io.netty.buffer.PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+14:42:04,175 DEBUG io.netty.buffer.ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+14:42:04,175 DEBUG io.netty.buffer.ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+14:42:04,175 DEBUG io.netty.buffer.ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+14:42:04,871 DEBUG io.netty.channel.DefaultChannelId:79 - -Dio.netty.processId: 20436 (auto-detected)
+14:42:04,873 DEBUG io.netty.util.NetUtil:135 - -Djava.net.preferIPv4Stack: false
+14:42:04,873 DEBUG io.netty.util.NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+14:42:04,917 DEBUG io.netty.util.NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+14:42:04,918 DEBUG io.netty.util.NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+14:42:04,965 DEBUG io.netty.channel.DefaultChannelId:101 - -Dio.netty.machineId: 00:ff:78:ff:fe:0a:cc:ee (auto-detected)
+14:42:04,999 DEBUG io.netty.buffer.AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+14:42:05,000 DEBUG io.netty.buffer.AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+14:42:05,000 DEBUG io.netty.util.ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5774dd6
+14:42:05,015 DEBUG io.netty.util.Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+14:42:05,016 DEBUG io.netty.util.Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+14:42:05,016 DEBUG io.netty.util.Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+14:42:05,016 DEBUG io.netty.util.Recycler:106 - -Dio.netty.recycler.ratio: 8
+14:42:05,016 DEBUG io.netty.util.Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+14:42:05,504 DEBUG io.netty.handler.codec.compression.Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+14:42:05,577 DEBUG io.netty.util.internal.ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x8c9948396d163c84
+14:42:10,339  INFO request.SendLogToMail:9 - This mail should be sent
